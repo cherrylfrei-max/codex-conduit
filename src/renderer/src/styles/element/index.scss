@@ -1,0 +1,14 @@
+/* just override what you need */
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+    $colors: (
+        "primary": (
+            // "base": #ff9f00,
+            // "base": #2b9d7c,
+            "base": #67c23a,
+        ),
+    ),
+    $text-color: (
+        // "primary": white,
+         // "regular": white,
+    )
+);
