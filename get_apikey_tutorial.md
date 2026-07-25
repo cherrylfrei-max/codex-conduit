@@ -1,51 +1,50 @@
-# 获取 API Key 教程
+# How to Get an API Key
 
-本教程介绍如何在控制台创建并复制 API Key。控制台界面中的 **Token** 即 API Key，用于在客户端、脚本或第三方应用中调用 API。
+This tutorial explains how to create and copy an API key in the console. In the console UI, a **Token** is an API key. You can use it to call the API from clients, scripts, or third-party applications. The OpenAI-compatible Base URL is `https://cheapapis.net/v1`.
 
-> 请妥善保管 API Key。不要将其提交到 Git 仓库、发送到公开聊天记录，或直接写入前端代码。
+> Keep your API key secure. Do not commit it to a Git repository, share it in public chat logs, or include it directly in frontend code.
 
-## 1. 进入令牌管理
+## 1. Open Token Management
 
-登录控制台后，在左侧导航栏点击 **Token Management**，进入 API Key 管理页面。
+After signing in to the console, click **Token Management** in the left navigation bar to open the API key management page.
 
-![在左侧导航栏进入 Token Management](./img/001.png)
+![Open Token Management from the left navigation bar](./img/001.png)
 
-## 2. 创建新的 API Key
+## 2. Create a New API Key
 
-在 Token Management 页面右上角点击 **Create token**。
+On the Token Management page, click **Create token** in the upper-right corner.
 
-![点击 Create token 创建新的 Token](./img/002.png)
+![Click Create token to create a new token](./img/002.png)
 
-## 3. 配置 Token
+## 3. Configure the Token
 
-在创建页面中填写并确认以下配置：
+On the creation page, enter and confirm the following settings:
 
-- **Name**：填写便于识别的名称，例如 `my-app-production` 或 `local-development`。
-- **Token Group**：选择有权调用目标模型的分组。
-- **Expiration Date**：按需设置有效期；仅用于临时测试时，建议设置较短的过期时间。
-- **Remaining Quota**：按需限制此 API Key 可使用的额度，避免单个密钥意外消耗过多配额。
-- **Model Limit**：如只需调用特定模型，可在此限制可访问的模型范围。
+- **Name**: Enter an easily identifiable name, such as `my-app-production` or `local-development`.
+- **Token Group**: Select `default`.
+- **Expiration Date**: Leave this setting unchanged.
+- **Remaining Quota**: Optionally limit the quota available to this API key to prevent a single key from unexpectedly consuming too much quota.
 
-其中，名称和分组通常为必填项；其余项目请根据实际使用场景设置。
+The name and token group are generally required. Configure the remaining settings according to your use case.
 
-![填写 Token 名称并选择 Token Group](./img/003.png)
+![Enter a token name and select a token group](./img/003.png)
 
-## 4. 提交创建
+## 4. Submit the Request
 
-确认配置无误后，点击页面底部的 **Submit** 创建 API Key。
+After confirming that the settings are correct, click **Submit** at the bottom of the page to create the API key.
 
-![点击 Submit 提交 Token 创建请求](./img/004.png)
+![Click Submit to create the token](./img/004.png)
 
-## 5. 复制 API Key
+## 5. Copy the API Key
 
-创建成功后回到 Token Management 列表，在目标 Token 的操作菜单中选择 **Copy Key**，即可复制 API Key。
+After the token is created, return to the Token Management list. Open the action menu for the target token and select **Copy Key** to copy the API key.
 
-![在操作菜单中选择 Copy Key](./img/005.png)
+![Select Copy Key from the action menu](./img/005.png)
 
-建议将 API Key 保存到密码管理器或服务器环境变量中。例如：
+Store your API key in a password manager or a server-side environment variable. For example:
 
 ```bash
-export OPENAI_API_KEY="你的 API Key"
+export OPENAI_API_KEY="your-api-key"
 ```
 
-完成后，可将该 API Key 配置到支持 OpenAI 兼容接口的客户端、SDK 或应用中使用。若怀疑密钥泄露，请立即在 Token Management 中禁用或删除该 Token，并重新创建新的 API Key。
+You can now configure this API key in any client, SDK, or application that supports the OpenAI-compatible API. If you suspect that the key has been exposed, immediately disable or delete the token in Token Management and create a new API key. The OpenAI-compatible Base URL is `https://cheapapis.net/v1`.
