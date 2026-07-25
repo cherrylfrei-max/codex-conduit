@@ -57,7 +57,7 @@ Repeat these steps to add multiple subscription accounts. Use separate browser p
 If you use an OpenAI-compatible relay, Coding Plan, or another API service, click **+ Add Third-Party Provider** in the upper-right corner:
 
 1. Select a preset provider.
-2. Register an account at https://cheapapis.net/, then sign in and create an API key.
+2. Register an account at https://cheapapis.net/, then sign in and [create an API key](https://github.com/cherrylfrei-max/codex-conduit/blob/main/get_apikey_tutorial.md)
 3. Enter the **API Key** you just created.
 4. Check the **Base URL** and **Upstream Protocol**. Both `/v1/responses` and `/chat/completions` protocols are supported.
 5. Expand advanced settings only when required by the provider. Do not modify them otherwise.
