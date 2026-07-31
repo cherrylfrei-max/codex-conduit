@@ -28,7 +28,7 @@ The dashboard provides a consolidated view of the current account, quotas, third
 
 ### 1. Install the App
 
-Download the latest installer for your platform from [Releases](https://github.com/VallierDev/codex-switcher/releases):
+Download the latest installer for your platform from [Releases](https://github.com/cherrylfrei-max/codex-conduit/releases):
 
 | Platform | Installer |
 | --- | --- |
