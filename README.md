@@ -2,7 +2,7 @@
 
 > Multi-account routing and automatic failover gateway for Codex
 
-Codex Conduit is a desktop gateway for **Codex CLI, Codex App, and supported IDE integrations**. It centrally manages multiple ChatGPT subscription accounts and OpenAI-compatible third-party providers on your machine, routing requests, switching accounts seamlessly, and failing over based on quota and account status.
+[Codex Conduit](https://github.com/cherrylfrei-max/codex-conduit) is a desktop gateway for **Codex CLI, Codex App, and supported IDE integrations**. It centrally manages multiple ChatGPT subscription accounts and OpenAI-compatible third-party providers on your machine, routing requests, switching accounts seamlessly, and failing over based on quota and account status.
 
 > Formerly known as **Codex Switcher / Seamless Switch**.
 
