@@ -139,7 +139,4 @@ Use **Fix Codex App Crashes** under **Settings > Troubleshooting** to repair qua
 ### How do I restore my original Codex configuration?
 
 Prefer turning off the proxy through the Dashboard, which restores the backup automatically. When the proxy is enabled, the original configuration is backed up as `~/.codex/config.toml.mybak`; quit Codex Conduit and Codex before handling it manually.
-
-## Running from Source
-
-The source code contains proprietary company code and has not been uploaded to GitHub, so running from source is not currently supported.
+ 
